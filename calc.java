@@ -3,10 +3,10 @@ public class calc {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter value for a :");
+        System.out.print("Enter value for a : ");
         int a = sc.nextInt();
 
-        System.out.println("Enter value for b :");
+        System.out.print("Enter value for b : ");
         int b = sc.nextInt();
 
         System.out.println("Enter a button from following: \n 1 = Sum \n 2 = Difference \n 3 = Product \n 4 = Division \n");
